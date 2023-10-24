@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #232323;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Lucida Console";
+    color: orange;
+}
+header {
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: blanchedalmond;
+}
+
+main {
+    margin: 0 340px;
+    display: flex; 
+    justify-content: center;
+    
+}
+
+form {
+    width: 400px;
+    height: 404px;
+    background-color: blanchedalmond;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin-top : 10px;
+    border-radius: 10px;;
+    min-width: 250px;
+}
+
+.intro{
+    color: peachpuff;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+#intro{
+    margin-top: 30px;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-evenly;
+}
+#click{
+
+    background-color: bisque;
+    margin: 0 340px;
+    height: 50px;
+    display: flex;
+    justify-content: center;        
+    align-items: center;    
+    border-radius:  10px;
+ }
+
+button {
+    background-color: #232323;
+    width: 75px;
+    height: 40px;
+    color: blanchedalmond;
+    border: none;
+    margin: 5px;
+}
+#priority-container{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: blanchedalmond;
+}
+
+#ratings-container {
+    width: 85%;
+}
+
+#radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+}
+
+.container-heading{
+    display: flex;
+    justify-content: start;
+    margin-top: -100px;;
+}
+#data-container-health, #data-container-prosperity, #data-container-inspiration {
+    width: 800px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+
+.affirmation-cover {
+    width: 220px; 
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+.affirmation-card {
+    background-color: blanchedalmond;
+    width: 220px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.affirmation-title {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.affirmation-rating {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.btns-container > button {
+    width: 20px;
+}
+

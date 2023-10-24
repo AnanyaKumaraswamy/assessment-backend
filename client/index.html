@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="container">
+    
+    <header>
+      <h1>Affirmations</h1>
+  </header>
+  <div id="intro">
+    <p class="intro">Welcome, it's affirmations time!!!</p>
+    <p class="intro">Positive affirmations are a form of self-help. Daily positive affirmations help you believe in yourself and what you're capable of achieving.</p>
+  </div>
+  <div id="click">
+    <p>Let's start with  a smile. Just click me!</p>
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Fortune Check</button>
+  </div>
+    <main>
+      <form>
+        <section id="priority-container">
+          <p>Affirmations Category: </p>
+          <select name="AffirmationsDDL" class="right AffirmationsDDL">
+            <option value="" selected>Please Select</option>
+            <option value="Health">Health</option>
+            <option value="Prosperity">Prosperity</option>
+            <option value="Inspiration">Inspiration</option>              
+          </select>
+      </section>
+      <input type='text' id="img" placeholder='Paste an image URL'/>
+      <p>Priority:</p>
+      <div id="radio-container">
+          <label for="one">
+              <input
+                  type="radio"
+                  name="priority"
+                  value="1"
+                  id="one"/>
+              1
+          </label>
+          <label for="two">
+              <input
+                  type="radio"
+                  name="priority"
+                  value="2"
+                  id="two"/>
+              2
+          </label>
+          <label for="three">
+              <input
+                  type="radio"
+                  name="priority"
+                  value="3"
+                  id="three"/>
+              3
+          </label>          
+      </div>
+          <button>Add </button>
+      </form>
+  
+      <div class="section">        
+        <section id="data-container-health" ></section>      
+        <section id="data-container-prosperity"></section>
+        <section id="data-container-inspiration"></section>
+      </div>
+
+      </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
